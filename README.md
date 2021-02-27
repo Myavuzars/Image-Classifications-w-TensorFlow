@@ -26,12 +26,21 @@ Auto-cached (documentation): Yes (test, validation), Only when shuffle_files=Fal
 
 In this study, I used the following libraries:
 import os
+
 import PIL
+
 import numpy as np
+
 import tensorflow as tf
+
 import matplotlib.pyplot as plt
+
 import tensorflow_hub as hub
+
 from tensorflow.keras import layers
+
 from tensorflow.keras import Model
+
 from tqdm import tqdm
+
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
